@@ -35,15 +35,17 @@ function sum(anArray) {
 function average(totalNumbers) {
     let average = 0
 for (let number of totalNumbers) {
-return average = sum(totalNumbers) / numbers.length
+return average = sum(totalNumbers) / totalNumbers.length
 }
 } 
 
-
-
 // 5. Create a function called "minimum" that takes an array of numbers and
 // returns the smallest number in that array.
-
+function minimum(numberArray) {
+for (let numbers of numberArray) {
+return(Math.min(...numberArray));
+}
+}
 
 // 6. There are many techniques to sort arrays in programming. Your programming
 // language will likely include the ability to do this. We are going to
