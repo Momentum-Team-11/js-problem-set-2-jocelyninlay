@@ -17,8 +17,11 @@ function remove (listOfStudents, studentToRemove) {
     }
 
 
+
+
 // 2. Revisit your "remove" function. Make sure that it does not change the original
 // array but instead returns a new array.
+// my answer for number one answered number 2
 
 // 3. Create a function called "sum" that takes an array of numbers and
 // returns the sum of those numbers. I want to get 10.
@@ -32,12 +35,12 @@ function sum(anArray) {
 
 // 4. Create a function called "average" that takes an array of numbers
 // and returns the average of those numbers.
-function average(totalNumbers) {
+function average(numbers) {
     let average = 0
-for (let number of totalNumbers) {
-return average = sum(totalNumbers) / totalNumbers.length
+    for (let number of numbers) {
+    return average = sum(numbers)/numbers.length
+    }
 }
-} 
 
 // 5. Create a function called "minimum" that takes an array of numbers and
 // returns the smallest number in that array.
